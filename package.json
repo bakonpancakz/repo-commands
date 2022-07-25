@@ -4,6 +4,7 @@
   "description": "Run Commands on GitHub Repo Push",
   "main": "./src/index.ts",
   "scripts": {
+    "start": "npm install && ts-node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "MIT",
