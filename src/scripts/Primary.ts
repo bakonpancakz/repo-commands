@@ -5,6 +5,7 @@ import cluster from "cluster";
 
 // Create Express Server
 const App = express();
+App.get("/", (_, res) => res.json({ online: true }));
 App.post("/git-push", express.json(), async (req: express.Request, res: express.Response) => {
 
     // Get Repository Name
