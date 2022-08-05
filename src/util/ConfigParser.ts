@@ -62,7 +62,7 @@ function ReadConfiguration(): Configuration | false {
     };
 
     // Return Valid Config
-    console.debug("[CONFIG] Parsed!");
+    console.debug(`[CONFIG] Parsed Config for "${Object.keys(NewConfig).join(', "')}"`);
     return NewConfig;
 };
 
